@@ -1,6 +1,5 @@
 body {
     box-sizing: border-box;
-    padding: 24px 156px;
 }
 li {
     display: flex;
@@ -23,15 +22,13 @@ li {
     margin: 0 auto;
 
 }
-img {
-    max-width: 100%;
-    display: block;
-    
-}
+
 
 .gallery-image {
     display: block;
+    max-width: 100%;
     transition: transform 0.3s ease;
+    
 }
 
 .gallery-link:hover .gallery-image {
