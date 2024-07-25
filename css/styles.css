@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    padding: 24px 156px;
+}
+li {
+    display: flex;
+    list-style-type: none;
+    min-width: 360px;
+    width: calc((100% - 24px) / 4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 24px;
+    align-items: flex-start;
+    margin: 0 auto;
+
+}
+img {
+    max-width: 100%;
+    display: block;
+    
+}
+
+.gallery-image {
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-link:hover .gallery-image {
+    transform: scale(1.07);
+}
